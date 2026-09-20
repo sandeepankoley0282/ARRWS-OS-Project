@@ -1,0 +1,78 @@
+# ==========================================
+# C / C++ Compiled Binaries & Build Artifacts
+# ==========================================
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+*.lib
+*.out
+*.app
+*.exe
+
+# Executables generated during build/testing
+build/
+bin/
+dist/
+*.dSYM/
+
+# CMake & Make generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.cmake
+compile_commands.json
+
+# ==========================================
+# Python (Bytecode, Virtual Envs, Caches)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python packaging & test artifacts
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# ==========================================
+# IDEs, Code Editors & OS Junk
+# ==========================================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# macOS & Windows system files
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Logs, Temporary Files & Secrets
+# ==========================================
+*.log
+*.tmp
+*.swp
+*.swo
+
+# IPC Sockets & Shared Memory files
+*.sock
+
+# Environment variables & local secrets
+.env
+*.local
+secrets.json
